@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import img from "../assets/WhatsApp Image 2025-07-23 at 09.12.24_95073c82.jpg"
 
 const Header = () => {
   return (
@@ -7,7 +7,7 @@ const Header = () => {
      py-3  w-full fixed  items-center px-[100px] border-b-amber-50 border-b-[0.5px]">
 
 
-        <a href="#home"><img src="../../public/WhatsApp Image 2025-07-23 at 09.12.24_95073c82.jpg" alt="" className="w-[100px] h-[70px] hover:-translate-1" /></a>
+        <a href="#home"><img src={img} alt="" className="w-[100px] h-[70px] hover:-translate-1" /></a>
 
 
         <div className="flex gap-15">
