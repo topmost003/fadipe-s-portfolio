@@ -12,9 +12,9 @@ const Header = () => {
 
         <div className="flex gap-15">
         <a href="#about" className="hover:text-[#FF7F50] ">About</a>
-        <a href="#project" className="hover:text-blue-400 ">Project</a>
-        <a href="#skills" className="hover:text-blue-400 ">Skills</a>
-        <a href="#contact" className="hover:text-blue-400">Contact</a>
+        <a href="#project" className="hover:text-[#FF7F50] ">Project</a>
+        <a href="#skills" className=" hover:text-[#FF7F50] ">Skills</a>
+        <a href="#contact" className="hover:text-[#FF7F50]  ">Contact</a>
   
 
 </div>

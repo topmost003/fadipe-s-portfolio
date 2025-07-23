@@ -2,15 +2,15 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='text-center'>
+    <div className='text-center py-2.5 text-white bg-black'>
     <p>© Copyright Fadipe All Rights Reserved</p>
 
-    <div className='flex justify-center  gap-5 pt-5'>
+    {/* <div className=' '>
       <a href=""><img src="../../public/facebook (1).png" alt="" className='w-[40px] h-[40px]'  /></a>
       <a href=""><img src="../../public/social (1).png" alt=""  className='w-[40px] h-[40px]'   /></a>
       <a href=""><img src="../../public/twitter (1).png" alt="" className='w-[40px] h-[40px]'   /></a>
       <a href=""><img src="../../public/linkedin.png" alt=""    className='w-[40px] h-[40px]'   /></a>  
-    </div>
+    </div> */}
 
 
 
@@ -21,4 +21,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer 

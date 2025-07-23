@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='flex  justify-between px-[100px] h-[100vh]  pt-[100px] mb-[50px] '>
+    <div className='flex  justify-between px-[100px] h-[100vh]  pt-[100px] mb-[50px] bg-[#F3F3F3] '>
 
     <main className='w-[400px] h-20'>
       <img src="../../public/WhatsApp Image 2025-07-23 at 09.12.24_95073c82.jpg" alt="" />
