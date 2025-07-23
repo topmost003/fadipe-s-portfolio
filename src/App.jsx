@@ -13,7 +13,7 @@ function App() {
   
 
   return (
-    <div  className="w-[1440px] m-auto">
+    <div >
     <div><Header/></div>
     <div id="home"><Home/></div>
     <div id="about"><About/></div>
