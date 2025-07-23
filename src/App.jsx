@@ -18,14 +18,14 @@ function App() {
   
    <div id="home"><Home/></div>
    <div id="about"><About/></div>
-   {/* <div id="project"><Project/></div> */}
+   <div id="project"><Project/></div>
     <div id="skills"><Skills/></div>
    <div id="contact"><Contact/></div> 
   
 
 
 
-   {/* <div><Footer/></div>  */}
+   <div><Footer/></div> 
     </>
   )
 }
