@@ -19,11 +19,15 @@ const About = () => {
     <main className='w-[700px] flex gap-5 flex-col '>
       <h1 className='font-bold text-[4em]'>About me</h1>
 
-      <p className='w-[600px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor consequatur et voluptate possimus natus consectetur amet, veniam, minus ullam reprehenderit quae praesentium repellendus. Corporis, accusamus. Quisquam ipsa totam consequatur expedita!</p>
+      <p className='w-[600px]'>I’m a Mechanical Engineering graduate who transitioned into software development with a strong passion for building digital solutions. My background gives me a solid problem-solving mindset, which I now apply to creating efficient, user-friendly applications.
+</p>
 
-      <p className='w-[600px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor consequatur et voluptate possimus natus consectetur amet, veniam, minus ullam reprehenderit quae praesentium repellendus. Corporis, accusamus. Quisquam ipsa totam consequatur expedita!</p>
+      <p className='w-[600px]'>
+I’ve gained hands-on experience with tools like HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, Tailwind CSS, and GitHub. I enjoy working across the full stack to bring ideas to life—from clean frontend interfaces to functional backend systems.
+</p>
       
-      <p className='w-[600px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor consequatur et voluptate possimus natus consectetur amet, veniam, minus ullam reprehenderit quae praesentium repellendus. Corporis, accusamus. Quisquam ipsa totam consequatur expedita!</p>
+      <p className='w-[600px]'>My goal is to work in a role that matches my skills, education, and ambition while contributing meaningfully to a team. I’m committed to ongoing training, professional growth, and maintaining a safe, collaborative work environment that supports organizational success.
+</p>
     </main>
 
      
