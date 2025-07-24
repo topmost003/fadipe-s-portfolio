@@ -1,4 +1,11 @@
-import React from 'react'
+import facebook from "../assets/facebook (1).png"
+import instagram from "../assets/social (1).png"
+import twitter from "../assets/twitter (1).png"
+import linkedin from "../assets/linkedin.png"
+
+
+
+
 
 const Footer = () => {
   return (
@@ -6,10 +13,10 @@ const Footer = () => {
     <p>© Copyright Fadipe All Rights Reserved</p>
 
     <div className='flex justify-center  gap-5 pt-4'>
-      <a href=""><img src="../../public/facebook (1).png" alt="" className='w-[40px] h-[40px]'  /></a>
-      <a href=""><img src="../../public/social (1).png" alt=""  className='w-[40px] h-[40px]'   /></a>
-      <a href=""><img src="../../public/twitter (1).png" alt="" className='w-[40px] h-[40px]'   /></a>
-      <a href=""><img src="../../public/linkedin.png" alt=""    className='w-[40px] h-[40px]'   /></a>  
+      <a href=""><img src= {facebook}     alt="" className='w-[40px] h-[40px]'  /></a>
+      <a href=""><img src= {instagram}     alt=""  className='w-[40px] h-[40px]'   /></a>
+      <a href=""><img src= {twitter}    alt="" className='w-[40px] h-[40px]'   /></a>
+      <a href=""><img src=  {linkedin}   alt=""    className='w-[40px] h-[40px]'   /></a>  
     </div>
 
 
