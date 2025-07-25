@@ -14,13 +14,10 @@ const Header = () => {
 
 
   return (
-    <div className="max-w-[1440px]  mx-auto bg-black  px-[120px]">
+    <div className="max-w-[1024px]  mx-auto bg-black  px-[120px]">
 
 
-  
-
-
-    <div className="
+  <div className="
      bg-black text-white h-[90px] py-3 
      border-b-amber-50 border-b-[0.5px] 
   
