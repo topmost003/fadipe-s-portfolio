@@ -14,11 +14,14 @@ const Header = () => {
 
 
   return (
-    <div className="mx-auto">
-    <div  className=" flex justify-between bg-black text-white h-[80px]
-     py-3  fixed  items-center border-b-amber-50 border-b-[0.5px]  w-[100%] px-[200px]  mx-auto max-w-7xl
-     
-    max-md:px-[50px]  max-md:h-[53px] ">
+    <div>
+    <div   className="flex justify-between bg-black text-white h-[80px] py-3 fixed items-center border-b-amber-50 border-b-[0.5px] 
+  
+      max-w-full w-full
+       px-[200px] 
+  
+      max-md:px-[50px] max-md:h-[53px]"  
+>
 
         <a href="#home"><img src={img} alt="" className="w-[100px] h-[70px]  
         hover:-translate-1 max-md:h-[50px] max-md:w-[80px]" /></a>

@@ -4,11 +4,11 @@ import link from "../assets/link.png"
 const Project = () => {
  
   return (
-    <div className="pt-[100px] bg-[#F3F3F3]  max-md:pb-[70px] px-[150px]">
+    <div className="pt-[100px] bg-[#F3F3F3]  max-md:pb-[70px] ">
    <h1 className='font-bold text-6xl text-center pb-10 '>Project</h1>
 
   
-  <section className="grid grid-cols-3 gap-5 px-[100px] py-12 max-md:grid max-md:grid-cols-1  max-md:p-0 max-md:px-5 max-md:items-center">
+  <section className="grid grid-cols-3 gap-5 px-[100px] py-12 max-md:grid  max-md:grid-cols-1  max-md:p-0 max-md:px-5 max-md:items-center">
 
    <main className=" bg-white text-black w-full h-[150px] rounded-2xl p-3.5 ">
    <div className="flex gap-3 pb-5">
