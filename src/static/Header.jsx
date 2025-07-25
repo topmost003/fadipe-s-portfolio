@@ -14,12 +14,14 @@ const Header = () => {
 
 
   return (
-    // <div className="">
-    <div   className="flex justify-between bg-black text-white h-[80px] py-3 fixed items-center border-b-amber-50 border-b-[0.5px] 
+    <div className=" bg-black text-white h-[90px] py-3 
+    fixed items-center border-b-amber-50 border-b-[0.5px] 
   
-      mx-auto  w-full px-[200px] 
+      w-full  px-[150px]
+       max-md:px-[50px] max-md:h-[53px]  ">
 
-       max-md:px-[50px] max-md:h-[53px]"     
+
+    <div   className="flex justify-between items-center"     
 >
 
         <a href="#home"><img src={img} alt="" className="w-[100px] h-[70px]  
@@ -50,7 +52,7 @@ const Header = () => {
   
 
 
-// </div>
+        </div>
   )
 }
 
