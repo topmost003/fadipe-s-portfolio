@@ -14,13 +14,12 @@ const Header = () => {
 
 
   return (
-    <div>
+    // <div className="">
     <div   className="flex justify-between bg-black text-white h-[80px] py-3 fixed items-center border-b-amber-50 border-b-[0.5px] 
   
-      max-w-full w-full
-       px-[200px] 
-  
-      max-md:px-[50px] max-md:h-[53px]"  
+      mx-auto  w-full px-[200px] 
+
+       max-md:px-[50px] max-md:h-[53px]"     
 >
 
         <a href="#home"><img src={img} alt="" className="w-[100px] h-[70px]  
@@ -51,7 +50,7 @@ const Header = () => {
   
 
 
-</div>
+// </div>
   )
 }
 
