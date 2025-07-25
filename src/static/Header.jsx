@@ -15,10 +15,17 @@ const Header = () => {
   // max-w-[1280px] px-16  mx-auto flex h-full items-center justify-between
 
   return (
-    <div className=" bg-black text-white h-[90px] py-3 
+    <div className="max-w-[1440px]  mx-auto bg-black  px-[120px]">
+
+
+  
+
+
+    <div className="
+     bg-black text-white h-[90px] py-3 
      border-b-amber-50 border-b-[0.5px] 
   
-       w-full   mx-auto   px-[150px]
+      w-full px-[50px]
 
        max-md:px-[50px] max-md:h-[53px]  ">
 
@@ -54,6 +61,8 @@ const Header = () => {
 
 
         </div>
+
+          </div>
   )
 }
 
