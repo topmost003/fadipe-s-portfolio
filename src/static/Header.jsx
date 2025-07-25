@@ -12,7 +12,6 @@ const Header = () => {
     setToggle(!toggle)
   }
 
-  // max-w-[1280px] px-16  mx-auto flex h-full items-center justify-between
 
   return (
     <div className="max-w-[1440px]  mx-auto bg-black  px-[120px]">
