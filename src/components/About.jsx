@@ -4,9 +4,11 @@ const About = () => {
   return (
     <div className='flex  justify-between px-[100px] h-[100vh]  pt-[100px] mb-[50px] bg-[#F3F3F3]  gap-8 
     
-    max-md:grid  max-md:p-2 max-md:justify-center max-md:mb-[270px] '>
+    max-md:grid  max-md:p-2 max-md:justify-center max-md:mb-[350px]'>
 
-    <main className='w-[400px] h-20 max-md:w-[300px] max-md:mx-0 max-md:pb-[400px] max-md:pt-[50px]'>
+    <main className='w-[400px] h-20 max-md:w-[350px] 
+    
+    max-md:pb-[400px] max-md:pt-[50px]'>
       <img src={img}alt=""  className="rounded-2xl" />
 
       <div className='text-center'> 
