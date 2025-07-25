@@ -14,11 +14,11 @@ const Header = () => {
 
 
   return (
-    <div>
+    <div className=" ">
     <div  className=" flex justify-between bg-black text-white h-[80px]
-     py-3  fixed  items-center border-b-amber-50 border-b-[0.5px]  w-full px-[150px] 
+     py-3  fixed  items-center border-b-amber-50 border-b-[0.5px] w-[1024px] px-[150px] 
      
-     max-md:   max-md:px-[50px]  max-md:h-[53px] max-md: ">
+     max-md:   max-md:px-[50px]  max-md:h-[53px] ">
 
         <a href="#home"><img src={img} alt="" className="w-[100px] h-[70px]  
         hover:-translate-1 max-md:h-[50px] max-md:w-[80px]" /></a>
@@ -33,15 +33,15 @@ const Header = () => {
 
 
 
-<section>
+      <section className=" min-md:hidden">
         <div className=" w-[30px] min-md:hidden" onClick={SwitchToggle}> 
-      {toggle? <img src={arrow}alt="" /> : <img src={menu} alt="" /> }
+      {toggle? <img src={arrow}alt=""  /> : <img src={menu} alt="" /> }
         </div>
 
         <div >
           {toggle && <Sidebar/>}
         </div>
-</section>
+        </section>
      
        </div>
 
