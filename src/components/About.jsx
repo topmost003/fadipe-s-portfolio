@@ -19,7 +19,7 @@ const About = () => {
     </main>
      
 
-    <main className='max-w-[700px] flex gap-5 flex-col  max-md:text-[15px]   '>
+    <main className='max-w-[700px] flex gap-5 flex-col  max-md:text-[15px] max-md:px-1.5  '>
       <h1 className='font-bold text-[4em]'>About me</h1>
 
       <p className='w-[600px]  max-md:w-[330px]'>I’m a Mechanical Engineering graduate who transitioned into software development with a strong passion for building digital solutions. My background gives me a solid problem-solving mindset, which I now apply to creating efficient, user-friendly applications.
