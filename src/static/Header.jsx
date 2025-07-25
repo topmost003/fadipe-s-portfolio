@@ -12,19 +12,20 @@ const Header = () => {
     setToggle(!toggle)
   }
 
+  // max-w-[1280px] px-16  mx-auto flex h-full items-center justify-between
 
   return (
     <div className=" bg-black text-white h-[90px] py-3 
-    fixed items-center border-b-amber-50 border-b-[0.5px] 
+     border-b-amber-50 border-b-[0.5px] 
   
-      w-full  px-[150px]
+       w-full   mx-auto   px-[150px]
+
        max-md:px-[50px] max-md:h-[53px]  ">
 
 
-    <div   className="flex justify-between items-center"     
->
-
-        <a href="#home"><img src={img} alt="" className="w-[100px] h-[70px]  
+    <div   className="flex justify-between items-center"   
+      
+><a href="#home"><img src={img} alt="" className="w-[100px] h-[70px]  
         hover:-translate-1 max-md:h-[50px] max-md:w-[80px]" /></a>
 
 
