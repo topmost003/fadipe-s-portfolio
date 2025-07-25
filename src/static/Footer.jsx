@@ -2,6 +2,7 @@ import facebook from "../assets/facebook (1).png"
 import instagram from "../assets/social (1).png"
 import twitter from "../assets/twitter (1).png"
 import linkedin from "../assets/linkedin.png"
+import whatsapp from "../assets/whatsapp.png"
 
 
 
@@ -22,7 +23,7 @@ const Footer = () => {
 
 
     <div>
-      <a href="https://wa.me/qr/ZDISPB3JXDDYD1"><img src="../../public/whatsapp.png" alt=""  className='w-[60px] h-[60px] fixed bottom-2 right-10' /></a>  
+      <a href="https://wa.me/qr/ZDISPB3JXDDYD1"><img src={whatsapp} alt=""  className='w-[60px] h-[60px] fixed bottom-2 right-10' /></a>  
     </div>
     </div>
   )

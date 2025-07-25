@@ -1,25 +1,23 @@
-import React from 'react'
+import img from "../assets/WhatsApp Image 2025-07-23 at 09.12.24_95073c82.jpg"
 
 const About = () => {
   return (
     <div className='flex  justify-between px-[100px] h-[100vh]  pt-[100px] mb-[50px] bg-[#F3F3F3]  gap-8 
     
-    max-md:grid    max-md:p-2 max-md:justify-center max-md:m-auto'>
+    max-md:grid  max-md:p-2 max-md:justify-center max-md:mb-[270px] '>
 
-    <main className='w-[400px] h-20 max-md:w-[300px] max-md:mx-0'>
-      {/* <img src="../../public/WhatsApp Image 2025-07-23 at 09.12.24_95073c82.jpg " alt="" /> */}
+    <main className='w-[400px] h-20 max-md:w-[300px] max-md:mx-0 max-md:pb-[400px] max-md:pt-[50px]'>
+      <img src={img}alt=""  className="rounded-2xl" />
 
       <div className='text-center'> 
  <h3 className='font-medium text-2xl'>Abiodun Quadri Fadipe</h3>
       <p className='font-extralight text-3xl'>Fullstack(MERN)</p>
 
       </div>
-
-     
     </main>
      
 
-    <main className='max-w-[700px] flex gap-5 flex-col  max-md:text-[15px] '>
+    <main className='max-w-[700px] flex gap-5 flex-col  max-md:text-[15px]   '>
       <h1 className='font-bold text-[4em]'>About me</h1>
 
       <p className='w-[600px]  max-md:w-[330px]'>I’m a Mechanical Engineering graduate who transitioned into software development with a strong passion for building digital solutions. My background gives me a solid problem-solving mindset, which I now apply to creating efficient, user-friendly applications.
