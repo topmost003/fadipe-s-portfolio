@@ -16,10 +16,10 @@ import vscode from "../assets/vscode.svg"
 
 const Skills = () => {
   return (
-    <div className='h-[150vh] py-25 max-md:p-0 max-md:mt-[50px] max-md:h-[140vh]' >
+    <div className='h-[150vh] px-[200px] py-25 max-md:p-0 max-md:mt-[50px] max-md:h-[140vh]' >
          <h1 className='text-center font-bold text-6xl  pb-5'>Skills</h1>
 
-         <main className=' grid grid-cols-4  items-center px-[100px]  max-md:px-4 max-md:grid-cols-3'>
+         <main className=' grid grid-cols-4  items-center  max-md:px-4 max-md:grid-cols-3'>
           <img src={html} alt="html"  className=' w-[150px] h-[150px] hover:-translate-y-px'/>
           <img src={css} alt="css"  className=' w-[150px] h-[150px] hover:-translate-y-px'/>
           <img src={github} alt="github"  className=' w-[150px] h-[80px] hover:-translate-y-px max-md:h-[60px]'/>

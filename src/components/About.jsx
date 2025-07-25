@@ -2,7 +2,7 @@ import img from "../assets/WhatsApp Image 2025-07-23 at 09.12.24_95073c82.jpg"
 
 const About = () => {
   return (
-    <div className='flex  justify-between px-[100px] h-[100vh]  pt-[100px] mb-[50px] bg-[#F3F3F3]  gap-8 
+    <div className='flex  justify-between px-[200px] h-[100vh]  pt-[100px] mb-[50px] bg-[#F3F3F3]  gap-8 
     
     max-md:grid  max-md:p-2 max-md:justify-center max-md:mb-[350px]'>
 
