@@ -4,7 +4,7 @@ import link from "../assets/link.png"
 const Project = () => {
  
   return (
-    <div className="pt-[100px] bg-[#F3F3F3]  max-md:pb-[70px]  px-[120px]">
+    <div className="pt-[100px] bg-[#F3F3F3]  max-md:pb-[70px] ">
    <h1 className='font-bold text-6xl text-center pb-10 '>Project</h1>
 
   

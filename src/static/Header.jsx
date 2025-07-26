@@ -14,19 +14,23 @@ const Header = () => {
 
 
   return (
-    <div className="max-w-[1024px]  mx-auto bg-black  px-[120px]">
 
 
-  <div className="
+
+  <div className="">
+
+
+    <div   className="flex justify-between items-center 
+    
      bg-black text-white h-[90px] py-3 
      border-b-amber-50 border-b-[0.5px] 
   
-      w-full px-[50px]
+      w-full   max-w-full  mx-auto   px-[150px]
 
-       max-md:px-[50px] max-md:h-[53px]  ">
-
-
-    <div   className="flex justify-between items-center"   
+       max-md:px-[50px] max-md:h-[53px] 
+    
+    
+    "   
       
 ><a href="#home"><img src={img} alt="" className="w-[100px] h-[70px]  
         hover:-translate-1 max-md:h-[50px] max-md:w-[80px]" /></a>
@@ -57,8 +61,6 @@ const Header = () => {
 
 
         </div>
-
-          </div>
   )
 }
 
