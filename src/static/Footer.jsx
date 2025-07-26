@@ -10,7 +10,7 @@ import whatsapp from "../assets/whatsapp.png"
 
 const Footer = () => {
   return (
-    <div className='text-center py-2.5 bg-[#F3F3F3] max-md:py-2 max-md:my-15'>
+    <div className='text-center py-2.5 bg-[#F3F3F3] max-md:py-2 max-md:mt-7'>
     <p>© Copyright Fadipe All Rights Reserved</p>
 
     <div className='flex justify-center  gap-5 pt-4'>
